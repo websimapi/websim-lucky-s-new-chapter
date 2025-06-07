@@ -1,0 +1,73 @@
+body {
+    font-family: 'Merriweather', serif;
+    background-color: #f9f7f2;
+    color: #4a4a4a;
+    line-height: 1.8;
+    margin: 0;
+    padding: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+#story-container {
+    max-width: 700px;
+    width: 100%;
+    background-color: #ffffff;
+    padding: 2rem 3rem;
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+    text-align: center;
+}
+
+h1 {
+    color: #3a506b;
+    margin-bottom: 1rem;
+}
+
+img {
+    max-width: 50%;
+    height: auto;
+    border-radius: 8px;
+    margin: 1rem auto;
+    display: block;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+}
+
+#story-text p {
+    text-align: left;
+    margin-bottom: 1.5rem;
+}
+
+#read-aloud-btn {
+    background-color: #5e8c61;
+    color: white;
+    border: none;
+    padding: 12px 24px;
+    font-size: 1rem;
+    font-family: 'Merriweather', serif;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin-bottom: 2rem;
+}
+
+#read-aloud-btn:hover {
+    background-color: #4a704d;
+}
+
+#read-aloud-btn:disabled {
+    background-color: #cccccc;
+    cursor: not-allowed;
+}
+
+
+.adoption-message {
+    font-style: italic;
+    color: #6b6b6b;
+    margin-top: 2rem;
+    padding-top: 1.5rem;
+    border-top: 1px solid #e0e0e0;
+}
+
